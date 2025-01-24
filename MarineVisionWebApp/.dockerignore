@@ -1,0 +1,36 @@
+
+#### 9. **.dockerignore**
+
+```bash
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded images directory
+static/uploads/
+static/results/
+
+# Git
+.git/
+.gitignore
+
+# Environment variables
+.env
